@@ -11,6 +11,6 @@ Python and MATLAB versions are available. For the Python version, please go to c
 # given a positive definite matrix A and a vector b which A*x=b
 
 [A,P] = lu_pp(A)
-b = lt_solve(A,b)
+b = lt_solve(A,b,P)
 b = ut_solve(A,b)
 ```
